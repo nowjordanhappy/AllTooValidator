@@ -12,7 +12,7 @@ This is a Kotlin validator that uses the Chain of Responsibility pattern to add 
   This library includes basic validators like:
 
   | Name                | Description                              |
-      | ------------------- | ---------------------------------------- |
+  | ------------------- | ---------------------------------------- |
   | MinLengthValidator  | Checks the minimum length of a string   |
   | MaxLengthValidator  | Checks the maximum length of a string   |
   | EqualsLengthValidator | Checks if the length of a string is equal to a value |
