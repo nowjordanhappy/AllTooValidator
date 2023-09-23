@@ -1,6 +1,5 @@
 plugins {
     id("org.jetbrains.kotlin.jvm")
-    //id("com.android.library")
     id("maven-publish")
 }
 
@@ -18,12 +17,6 @@ afterEvaluate {
                 groupId = "com.github.nowjordanhappy"
                 artifactId = "alltoovalidator"
                 version = "0.1.1"
-            }
-        }
-
-        repositories {
-            maven {
-                url = uri("https://jitpack.io")
             }
         }
     }

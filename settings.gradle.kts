@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AllTooValidator"
 include(":app")
-include(":library")
+include(":alltoovalidator")
