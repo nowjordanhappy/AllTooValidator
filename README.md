@@ -122,6 +122,10 @@ when (ageResult) {
      }
 ```
 
+## Extras
+* If you want to create your custom builder, use **CompositeValidator**
+* Use **AllTooValidator** for create your own validator. You need to specify the enter and ouput type, they can be different.
+
 ## License
 
 MIT License
