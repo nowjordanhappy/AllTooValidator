@@ -4,6 +4,8 @@
 Validator using the Chain of Responsibility pattern.
 This is a Kotlin validator that uses the Chain of Responsibility pattern to add validations for inputs or ...
 
+<img src="https://github.com/nowjordanhappy/AllTooValidator/blob/master/alltoovaldiation-demo.gif" width="150px">
+
 ## How to Use
 - **Basic Validator**
 
@@ -68,12 +70,68 @@ This is a Kotlin validator that uses the Chain of Responsibility pattern to add 
     }
     ```
 
-## Check Validation
+## Check validation
 
-To check if the validation fails, we can use `AllTooValidatorResult`. In case of success, we can get the value, and for failure, we get the `errorMessageResId`:
+To check if the validation fails, we show check using the AllTooValidatorResult, in case of success we can we the value, and for failure, we get the errorMessageResId:
 
 ```kotlin
 sealed class AllTooValidatorResult<out T> {
     data class Success<out T>(val result: T) : AllTooValidatorResult<T>()
+    //data class Failure(@StringRes val errorMessageResId: Int) : AllTooValidatorResult<Nothing>()
     data class Failure(val errorMessageResId: Int) : AllTooValidatorResult<Nothing>()
 }
+```
+
+And for checking we could do this:
+
+```kotlin
+val ageResult = ageValidator.validate(age)
+
+when (ageResult) {
+    is AllTooValidatorResult.Failure -> {
+        binding.yearsOldTIL.error = getString(ageResult.errorMessageResId)
+    }
+    is AllTooValidatorResult.Success -> {
+        //getting value as Int
+        //val ageValue = ageResult.result
+        binding.yearsOldTIL.error = null
+    }
+}
+```
+
+## Dependency
+
+*   Add the dependencies to your gradle files:
+
+#### Step 1. Add it in your root build.gradle at the end of repositories
+
+```plaintext
+   allprojects {
+       repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+        }
+    }
+```
+
+#### Step 2. Add the dependency
+
+```plaintext
+    dependencies {
+        implementation 'com.github.nowjordanhappy:AllTooValidator:0.1.1'
+     }
+```
+
+## License
+
+MIT License
+
+Copyright (c) 2023 Jordan R. A.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
+SOFTWARE.
