@@ -16,7 +16,7 @@ afterEvaluate {
 
                 groupId = "com.github.nowjordanhappy"
                 artifactId = "alltoovalidator"
-                version = "0.1.3+1"
+                version = "0.1.4"
             }
         }
     }
