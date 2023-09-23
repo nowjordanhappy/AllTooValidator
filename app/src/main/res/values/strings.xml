@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AllTooValidator</string>
+    <string name="validate">Validate</string>
+    <string name="phone">Phone</string>
+    <string name="identification_document">Identification document</string>
+    <string name="years_old">Years old</string>
+    <string name="error_empty_age">Enter your age</string>
+    <string name="error_invalid_age">Invalid age, enter again</string>
+    <string name="error_age_must_be_adult">Your age should be equal or greather than 18</string>
+    <string name="error_invalid_identification_number">Identification number should be 8 characters</string>
+    <string name="error_invalid_phone_number">Phone should be 9 to 11 characters</string>
+    <string name="error_empty_phone">Enter your phone</string>
+</resources>
