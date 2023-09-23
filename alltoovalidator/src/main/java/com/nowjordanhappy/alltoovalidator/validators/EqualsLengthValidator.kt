@@ -1,8 +1,8 @@
-package com.nowjordanhappy.library.validators
+package com.nowjordanhappy.alltoovalidator.validators
 
 import androidx.annotation.StringRes
-import com.nowjordanhappy.library.AllTooValidator
-import com.nowjordanhappy.library.AllTooValidatorResult
+import com.nowjordanhappy.alltoovalidator.AllTooValidator
+import com.nowjordanhappy.alltoovalidator.AllTooValidatorResult
 
 class EqualsLengthValidator(
     private val expectedLength: Int,

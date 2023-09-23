@@ -4,12 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.nowjordanhappy.alltoovalidator.custom_validators.AdultAgeValidator
 import com.nowjordanhappy.alltoovalidator.databinding.ActivityMainBinding
-import com.nowjordanhappy.library.AllTooValidatorResult
-import com.nowjordanhappy.library.validators.EmptyValidator
-import com.nowjordanhappy.library.validators.EqualsLengthValidator
-import com.nowjordanhappy.library.validators.MaxLengthValidator
-import com.nowjordanhappy.library.validators.MinLengthValidator
-import com.nowjordanhappy.library.validators.StringValidatorBuilder
+import com.nowjordanhappy.alltoovalidator.validators.EmptyValidator
+import com.nowjordanhappy.alltoovalidator.validators.EqualsLengthValidator
+import com.nowjordanhappy.alltoovalidator.validators.MaxLengthValidator
+import com.nowjordanhappy.alltoovalidator.validators.MinLengthValidator
+import com.nowjordanhappy.alltoovalidator.validators.StringValidatorBuilder
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

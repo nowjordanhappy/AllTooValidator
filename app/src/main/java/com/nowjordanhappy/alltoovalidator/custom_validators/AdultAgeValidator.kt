@@ -1,10 +1,10 @@
 package com.nowjordanhappy.alltoovalidator.custom_validators
 
 import com.nowjordanhappy.alltoovalidator.R
-import com.nowjordanhappy.library.AllTooValidator
-import com.nowjordanhappy.library.AllTooValidatorResult
-import com.nowjordanhappy.library.validators.EmptyValidator
-import com.nowjordanhappy.library.validators.MinValueValidator
+import com.nowjordanhappy.alltoovalidator.AllTooValidator
+import com.nowjordanhappy.alltoovalidator.AllTooValidatorResult
+import com.nowjordanhappy.alltoovalidator.validators.EmptyValidator
+import com.nowjordanhappy.alltoovalidator.validators.MinValueValidator
 
 class AdultAgeValidator: AllTooValidator<String, Int> {
     override fun validate(data: String): AllTooValidatorResult<Int> {

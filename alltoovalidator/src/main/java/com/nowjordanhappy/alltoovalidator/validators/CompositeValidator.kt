@@ -1,7 +1,7 @@
-package com.nowjordanhappy.library.validators
+package com.nowjordanhappy.alltoovalidator.validators
 
-import com.nowjordanhappy.library.AllTooValidator
-import com.nowjordanhappy.library.AllTooValidatorResult
+import com.nowjordanhappy.alltoovalidator.AllTooValidator
+import com.nowjordanhappy.alltoovalidator.AllTooValidatorResult
 
 class CompositeValidator<T, R>(private val validators: List<AllTooValidator<T, R>>) : AllTooValidator<T, R> {
     override fun validate(data: T): AllTooValidatorResult<R> {

@@ -1,6 +1,6 @@
-package com.nowjordanhappy.library.validators
+package com.nowjordanhappy.alltoovalidator.validators
 
-import com.nowjordanhappy.library.AllTooValidator
+import com.nowjordanhappy.alltoovalidator.AllTooValidator
 
 class StringValidatorBuilder {
     private val validators = mutableListOf<AllTooValidator<String, String>>()

@@ -1,4 +1,4 @@
-package com.nowjordanhappy.library
+package com.nowjordanhappy.alltoovalidator
 
 //import androidx.annotation.StringRes
 
