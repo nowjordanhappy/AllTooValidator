@@ -15,12 +15,8 @@ aalltoovalidator/src/main/java/com/nowjordanhappy/alltoovalidator/validators/Min
 LICENSE,0/3/0398ccd0f49298b10a3d76a47800d2ebecd49859
 ‹
 [app/src/main/java/com/nowjordanhappy/alltoovalidator/custom_validators/AdultAgeValidator.kt,9/d/9d03308c0034ff373ea1c817555841ae31efb994
-C
-settings.gradle.kts,7/4/749edfcc96398253e5b3416184e95c46621da850
 A
 gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
-D
-app/build.gradle.kts,d/2/d2a4383452aad84a18429a5844d31330a012a9e6
 ;
 jitpack.yml,3/f/3f384c5ac91d01ea9ab11981ab87f1d958f63284
 @
