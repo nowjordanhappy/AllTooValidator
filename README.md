@@ -2,7 +2,7 @@
 [![](https://jitpack.io/v/devsideal/ReadMoreOption.svg)](https://jitpack.io/#nowjordanhappy/AllTooValidator)
 
 Validator using the Chain of Responsibility pattern.
-This is a Kotlin validator that uses the Chain of Responsibility pattern to add validations for inputs or ...
+This is a Kotlin validator that uses the Chain of Responsibility pattern to add validations for inputs or other values.
 
 <img src="https://github.com/nowjordanhappy/AllTooValidator/blob/master/alltoovaldiation-demo.gif" width="150px">
 
