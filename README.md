@@ -41,7 +41,7 @@ This is a Kotlin validator that uses the Chain of Responsibility pattern to add 
     val phoneValidator = StringValidatorBuilder()
             .addValidator(EmptyValidator(errorMessageResId = R.string.error_empty_phone))
             .addValidator(MinLengthValidator(minLength = 9, errorMessageResId = R.string.error_invalid_phone_number))
-            .addValidator(MaxLengthValidator(maxLength = 12, errorMessageResId = R.string.error_invalid_phone_number))
+            .addValidator(MaxLengthValidator(maxLength = 11, errorMessageResId = R.string.error_invalid_phone_number))
             .build()
     val phoneResult = phoneValidator.validate(phone)
     ```

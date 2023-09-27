@@ -21,3 +21,7 @@ A
 gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
 ;
 jitpack.yml,3/f/3f384c5ac91d01ea9ab11981ab87f1d958f63284
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+•
+ealltoovalidator/src/main/java/com/nowjordanhappy/alltoovalidator/validators/StringValidatorBuilder.kt,9/6/96ad965a8ead44bdaf266f86b57d115abbd181ae
