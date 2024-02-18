@@ -1,6 +1,8 @@
 # AllTooValidator
 [![](https://jitpack.io/v/devsideal/ReadMoreOption.svg)](https://jitpack.io/#nowjordanhappy/AllTooValidator)
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/nowjordanhappy)
+
 Validator using the Chain of Responsibility pattern.
 This is a Kotlin validator that uses the Chain of Responsibility pattern to add validations for inputs or other values.
 
